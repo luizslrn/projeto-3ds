@@ -8,3 +8,112 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Quicksand:wght@300;400;700&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(0,0,0)
+}
+
+.img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+    animation: zoom 10s;
+}
+
+/* keyframe animação do background (.img-wrapper img) */
+@keyframes zoom {
+    0%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+/* keyframe animação do background (.img-wrapper img) */
+
+/* keyframe animação do banner (<h1> <p> <button>*/
+@keyframes moveBanner{
+    0%{
+        transform: translateY(10rem) rotateY(-30deg);
+    }
+    100%{
+        transform: translateY(0) rotateY(0);
+        opacity: 1;
+    }
+}
+/* keyframe animação do banner (<h1> <p> <button>*/
+
+.banner{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.banner h1{
+    color: #ffffff;
+    font-size: 8rem;
+    font-family: "Bebas Neue", serif;
+    font-weight: 200;
+    text-shadow: .4rem .3rem 2px rgba(0,0,0,.4);
+    text-transform: uppercase;
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+    opacity: 0;
+    animation: moveBanner 1s 0.5s forwards;
+}
+
+.banner p{
+    font-family: "Quicksand", serif;
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    text-shadow: .3rem .1rem 2px rgba(0,0,0,.8);
+    margin-bottom: 2rem;
+    opacity: 0;
+    animation: moveBanner 1s 0.7s forwards;
+}
+
+/* botão (saiba mais) */
+.banner button{
+    font-family: "Jost", serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+    background: #00c6ff;
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+    padding-top: 1rem; /* padding simplificado: "padding: 1rem 2rem;" */
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0;
+    animation: moveBanner 1s 0.9s forwards;
+}
+
+.banner button:hover{
+    color: #000;
+    opacity: 0.8;
+}
+/* botão (saiba mais) */
+
+
+
