@@ -13,8 +13,8 @@ O controle das tarefas desse projeto será realizado no GitHub.
 :beginner: atualização
 :registered: release
 
-## :beginner: Atualização
+## :beginner: Atualização 22/09/21
 
-:warning: remoção do botão (saiba mais)
-:warning: banner centralizado na tela
-:warning: novo background
+:warning: remoção do botão (saiba mais),
+banner centralizado na tela,
+novo background.
