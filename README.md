@@ -12,3 +12,9 @@ O controle das tarefas desse projeto será realizado no GitHub.
 :warning: correção de bug
 :beginner: atualização
 :registered: release
+
+## :beginner: Atualização
+
+:warning: remoção do botão (saiba mais)
+:warning: banner centralizado na tela
+:warning: novo background

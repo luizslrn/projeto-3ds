@@ -61,8 +61,8 @@ header{
 
 .banner{
     position: absolute;
-    top: 30%;
-    left: 15%;
+    top: 40%;
+    left: 40%;
 }
 
 .banner h1{
@@ -81,7 +81,7 @@ header{
 .banner p{
     font-family: "Quicksand", serif;
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 3rem;
     text-transform: capitalize;
     text-shadow: .3rem .1rem 2px rgba(0,0,0,.8);
     margin-bottom: 2rem;
@@ -89,7 +89,8 @@ header{
     animation: moveBanner 1s 0.7s forwards;
 }
 
-/* botão (saiba mais) */
+/* botão (saiba mais) 
+
 .banner button{
     font-family: "Jost", serif;
     font-size: 1.3rem;
@@ -99,7 +100,10 @@ header{
     background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
     background: linear-gradient(to right, #0072ff, #00c6ff);
     padding-top: 1rem; /* padding simplificado: "padding: 1rem 2rem;" */
-    padding-bottom: 1rem;
+
+/* separação!!
+   
+padding-bottom: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
     border: none;
@@ -113,7 +117,8 @@ header{
     color: #000;
     opacity: 0.8;
 }
-/* botão (saiba mais) */
+
+*/
 
 
 
