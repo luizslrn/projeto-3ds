@@ -125,6 +125,99 @@ header{
     background-color: whitesmoke;
 }
 
+.sessao-cursos{
+    overflow:hidden
+}
+
+.cursos{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(6, 6rem);
+    row-gap: 1rem;
+}
+
+.cursos:nth-child(1){
+    grid-column: 5 / 6;
+    grid-row: 2 / 5;
+}
+
+.cursos:nth-child(2){
+    grid-column: 11 / 11;
+    grid-row: 2 / 5;
+}
+
+.cursos:nth-child(3){
+    grid-column: 16 / 5;
+    grid-row: 3 / 5;
+}
+
+.cursos:nth-child(4){
+    grid-column: 16 / 11;
+    grid-row: 3 / 5;
+}
+
+.sessao-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sessao-header h1{
+    font-family: "Bebas Neue", serif;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    border-bottom: solid 3px rgba(38, 130, 234, 1);
+    margin-bottom: 1.5rem;
+}
+
+.cursos-header{
+    display: flex;
+    align-items: center;
+}
+
+.cursos-header i{
+    font-size: 3rem;
+}
+
+.cursos-header h3{
+    font-family: "Jost", serif;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.curso-text{
+    font-family: "Quicksand", serif;
+}
+
+.curso-text #p-1{
+    margin-left: -357%;
+}
+
+.curso-text #p-2{
+    margin-right: -300%;
+    margin-left: -245%;
+}
+
+.curso-text #p-3{
+    margin-right: -200%;
+    margin-left: -257%;
+}
+
+.curso-text #p-4{
+    margin-right: -500%;
+    margin-left: -435%;
+}
+
+.curso-img-wrapper{
+    grid-column: 6 / 11;
+    width: 100%;
+}
+
+.curso-img-wrapper img{
+    object-fit: cover;
+    width: 100%;
+}
+
 /*Fim Navbar */
 
 /* FORA DE USO 

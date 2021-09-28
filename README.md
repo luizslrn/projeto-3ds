@@ -17,14 +17,18 @@ O controle das tarefas desse projeto será realizado no GitHub.
 
 22/09/21
 
-:warning: remoção do botão (saiba mais),
+:warning: Remoção do botão (saiba mais),
 banner centralizado na tela,
 novo background.
 
 24/09/21
 
-:warning: mudança de posicionamento do header, adicionado um novo parágrafo, entre outras pequenas mudanças no css.
+:warning: Mudança de posicionamento do header, adicionado um novo parágrafo, entre outras pequenas mudanças no css.
 
 25/09/21
 
-:warning: mudança no background, remoção do sub-titulo, ajustes no parágrafo, menu adicionado.
+:warning: Mudança no background, remoção do sub-titulo, ajustes no parágrafo, menu adicionado.
+
+27/09/21
+
+:warning: Sessão informação sobre cursos criada e interação com menu para acessar aba cursos inserido.
